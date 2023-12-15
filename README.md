@@ -1,30 +1,85 @@
-# React + TypeScript + Vite
+# ☕ Coffee Delivery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo(a) ao repositório que contém a solução para o desafio Ignite da [@Rocketseat](https://www.rocketseat.com.br/).
 
-Currently, two official plugins are available:
+O objetivo desse desafio é estudar as ferramentas e tecnologias de desenvolvimento web utilizadas neste projeto, o qual se encontra em constante atualização (melhorias podem ser implementadas a qualquer momento).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Happy hacking!
 
-## Expanding the ESLint configuration
+> ⚠️ **É importante ressaltar que este projeto/repositório se encontra em constante atualização.**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🧠 Contexto
 
-- Configure the top-level `parserOptions` property like this:
+![Protótipo](./.github/coffee-delivery-prototype.png)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+O desafio consistia em criar uma interface e-commerce para venda de produtos relacionados ao consumo de café com as seguintes ferramentas:
+
+- [x] Vite
+- [x] Styled-components
+- [x] Local storage
+- [x] TypeScript
+- [x] Context API
+- [x] React-router-dom
+- [x] React-hook-form
+- [x] Form validations with Zod
+
+## 🤝 Colaboradores
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/LDNzera" title="Pedro Galembeck">
+        <img src="https://avatars.githubusercontent.com/u/51977156?v=4" width="100px;" alt="Avatar de Pedro Galembeck (Github)"/><br>
+        <sub>
+          <b>Pedro Galembeck</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Rocketseat/" title="Rocketseat">
+        <img src="https://avatars.githubusercontent.com/u/28929274?s=200&v=4" width="100px;" alt="Avatar da Rocketseat"/><br>
+        <sub>
+          <b>Rocketseat</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 📋 Instruções
+
+Para utilizar o projeto acima, basta seguir as instruções abaixo.
+
+- Siga esse [protótipo](<https://www.figma.com/file/BcP48N0GAlF9y1dzwHIvMZ/Coffee-Delivery-%E2%80%A2-Desafio-React-(Copy)?type=design&mode=design>).
+- Utilize o [deploy](https://coffee-delivery-galembeck.vercel.app/) na vercel para abrir o link de visualização.
+  > https://coffee-delivery-galembeck.vercel.app/
+
+## 🖥️ Instalação
+
+### Coffee Delivery
+
+1. Clone este repositório:
+
+```bash
+git clone https://github.com/LDNzera/coffee-delivery.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Abra a pasta do projeto (_coffee-delivery_):
+
+```bash
+cd coffee-delivery
+```
+
+3. Instale as dependências utilizadas:
+
+```bash
+npm install
+```
+
+3. Inicie o projeto:
+
+```bash
+npm run dev
+```
+
+Made with 💜 by Pedro Galembeck.
