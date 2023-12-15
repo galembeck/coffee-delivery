@@ -1,9 +1,17 @@
 import { styled } from "styled-components";
 
-export const InfoWithIconContainer = styled.div`
+interface InfoWithIconContainerProps {
+  weight?: string | number;
+}
+
+export const InfoWithIconContainer = styled.div<InfoWithIconContainerProps>`
   display: flex;
   align-items: center;
   gap: 0.75rem;
+
+  > p {
+    font-weight: ${({ weight }) => weight ?? 500};
+  }
 `;
 
 interface IconContainerProps {
