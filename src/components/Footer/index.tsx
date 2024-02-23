@@ -9,7 +9,7 @@ export function Footer() {
     <FooterContainer>
       <p>Made with 💜 by Pedro Galembeck</p>
       <div>
-        <Link to="https://www.github.com/LDNzera" target="_blank">
+        <Link to="https://www.github.com/galembeck" target="_blank">
           <FooterButton variant="purple">
             <FaGithub size={40} />
             Github
