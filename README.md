@@ -1,4 +1,4 @@
-# ☕ Coffee Delivery
+# ☕ | Coffee Delivery
 
 Bem-vindo(a) ao repositório que contém a solução para o desafio Ignite da [@Rocketseat](https://www.rocketseat.com.br/).
 
